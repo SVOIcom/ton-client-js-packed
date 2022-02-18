@@ -1,5 +1,5 @@
-import {TonClient} from "@tonclient/core";
-import {libWeb, libWebSetup} from "@tonclient/lib-web";
+import {TonClient} from "@eversdk/core";
+import {libWeb, libWebSetup} from "@eversdk/lib-web";
 
 if(!window.Buffer)
 	window.Buffer = Buffer;

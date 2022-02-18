@@ -13,7 +13,7 @@ module.exports = {
         }),*/
         new CopyPlugin(
             [
-                {from: './node_modules/@tonclient/lib-web/tonclient.wasm'},
+                {from: './node_modules/@eversdk/lib-web/eversdk.wasm'},
                 //{from: './node_modules/@tonclient/lib-web/tonclient.wasm', to: 'tonclient_1.5.3.wasm'},
             ],
         ),
